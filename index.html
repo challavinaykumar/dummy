@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CANDEURTWINS</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preload" href="assets/fonts/roboto-regular-webfont.woff2" as="font" type="font/woff2" crossorigin="">
+
+  <script src="https://kit.fontawesome.com/ecf444e1d2.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<link rel="preload" href="assets/fonts/micon.woff2" as="font" type="font/woff2" crossorigin="" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+</head>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./Images/logo.png" style="max-width: 100px;" />
+      </a>
+      <button class="navbar-toggler z-10" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active flex" aria-current="page" href="#home"><i class="fa-solid fa-house px-2"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#price"><i class="fa-sharp fa-solid fa-coins px-2"></i>Price</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#site"><i class="fa-solid fa-border-none px-2"></i>Site & Floor Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#amenities"><i class="fa-solid fa-wifi px-2"></i>Amenities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#location"><i class="fa-solid fa-location-dot px-2"></i>Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tour"><i class="fa-brands fa-youtube px-2"></i>Virtual Site Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#fade"><i class="fa-solid fa-download px-2 brochure"></i>Brochure</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------- Carousel(Home) --------------------------------------->
+ <div id="home">
+  
+
+
+  <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <!-- <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button> -->
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="./Images/slider1.jpg" class="d-block " alt="...">
+
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./Images/slider4.jpg" class="d-block mw-100" alt="...">
+
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <img src="./Images/slider5.jpg" class="d-block mw-100" alt="...">
+
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./Images/slider2.jpg" class="d-block mw-150" alt="...">
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- <div class="connect">
+  <p >Contact Number</p>
+</div> -->
+  <!------------------------------- Form---------------------- -->
+
+  <div class="containe" id="foem">
+    
+      <div class="c">
+        <h4 class="text-center my-2">BOOKING OPEN</h4>
+      </div>
+      <div class="text-center">
+        <h4>CANDEURTWINS
+        </h4>
+        <h6>At Miyapur, North Hyderabad</h6>
+        <p style="margin-bottom: 3px !important;">By Candeur Developers</p>
+        <p>Pre Launch Premium Apartments</p>
+        <div class="highlight">
+        <!-- <h5 class="zoom">Luxury Exclusive 3 BHK Only Premium
+Apartment Skyscraper G+47 Floors
+Price: Rs 6800/- Per Sq.Ft. <div class="br"></div> There is no extra charges for Floor rise & for East facing </h5> -->
+<div class="zoom">
+<h5>Spacious 3 BHK Homes Premium
+  Apartment Skyscraper G+47 Floors</h5>
+
+<h5>Starting Price</h5>
+
+<h3 color><i class="fa-solid fa-indian-rupee-sign"></i>6800 PSF*<span>  onwards</span></h3>
+
+<h6> There is no extra charges for Floor rise &  East facing</h6>
+</div>
+<div class="button swing big" style="margin-top:20px;">
+  <button type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquire Now</button>
+</div>
+
+<p style="margin-top:10px;">RERA NO : P02400005082</p>
+</div>   
+  </div>
+</div>
+
+
+  <!----------------------------- overview ---------------------->
+  <section id="overview">
+  
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+            Overview</h1>
+        <h1 class="position-absolute text-uppercase ">Overview</h1>
+    </div>
+      <!-- <div><h1 class="rotate">Overview</h1></div> -->
+  <div class="data">
+    <h1>Welcome To Candeurtwins</h1>
+    <h4>At Miyapur, North Hyderabad</h4>
+    <p style="font-size: 18px;">Premimum upcoming projects in miyapur Candeur Twins by Candeur Developers
+      & Builders is one of the popular residential project in Miyapur, North Hyderabad.
+      It has lavish yet thoughtfully designed 2 Towers and 742 residences.
+      Explore the happiness of living by residing at the most stylish Candeur
+      Twins Miyapur Gated Community Flats in Miyapur. We present you with the
+      tallest towers of residences as our first-ever project in Hyderabad’s
+      most beautiful location</p>
+    </div>
+    <button class="overview-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-download px-2 brochure"></i>  Download Brochure</button>
+    </div>
+  </section>
+
+
+  <!-- pRICE -->
+
+
+  <section id="price">
+   
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+            Price</h1>
+        <h1 class="position-absolute text-uppercase ">Price</h1>
+    </div>
+      <!-- <div><h1 class="rotate1" >Price</h1></div> -->
+  <div class="table">
+    <div >
+      <div class="main">
+ <table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Carpet Area</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>3BHK</td>
+      <td>1590-2060 Sq.ft</td>
+      <td> <i class="fa-solid fa-indian-rupee-sign "></i>
+        <span class="px-3"> 6800 Per SF* Onwards</span>
+         <button class="table-button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 3px 10px 3px 10px; background: #465e5d; color: white;">Price Breakup</button> 
+        </td>
+      
+    </tr>
+  </thead>
+ </table>
+</div>
+
+
+<div class="medium ">
+  <h4 >3BHK</h4>
+  <h5>1590-2060 Sq.Ft(carpet Area)</h5>
+  <h4>6800 Per SF* Onwards</h4>
+  <button data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 20px; padding: 3px 10px 3px 10px; background: #465e5d; color: white;">Price Breakup</button>
+</div>
+<p style="font-size: 18px; padding-top: 15px;">Note: Above mentioned price is a final price. There is no extra charges for Floor rise & East facing <span style="color: red; margin-left: -10px">*</span> </p>
+</div>
+<div class="d-block image">
+
+
+    <div class="col-md-12 costing">
+      
+        <div class="at-property-item shadow-sm border border-grey">
+          <div class="at-property-img lazyloaded cursor-pointer" data-expand="1">
+            <picture>
+              <source class="w-100 lazyloading" data-srcset="./Images/costing-details.jpg" type="image/webp"
+                srcset="
+                ./Images/costing-details.jpg
+                  " sizes="222px" />
+              <img data-sizes="auto" class=" lazyautosizes ls-is-cached lazyloaded ls-inview cursor-pointer costt"
+                data-srcset="./Images/costing-details.jpg" sizes="222px"
+                srcset="./Images/costing-details.jpg" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+            </picture>
+            <div class="overlays"></div>
+          </div>
+            <button type="button" class="btn btn-primary w-100 hoverr" style="margin-left: 0px !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Complete Costing Details
+            </button>
+          <!-- <div class="at-property-dis effetGradient">
+            <h5>Complete Costing Details</h5>
+          </div> -->
+        </div>
+      </a>
+    </div>
+    </div>
+  </div>
+
+  </section>
+
+  <!-- Floor Plan-->
+  
+
+
+  <section id="site">
+    
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+           floor plan</h1>
+        <h1 class="position-absolute text-uppercase ">floor plan</h1>
+      </div>
+      <!-- <div><h1 class="rotate1" >Floor</h1></div> -->
+      <div class="flex">
+      <div class="d-block master">
+
+
+        <div class="col-md-12" >
+          
+            <div class="at-property-item   masterplan">
+              <div class="at-property-img lazyloaded" data-expand="1">
+                <picture>
+                 <!--  <source  class="w-100 lazyloading" data-srcset="./Images/masterplan.jpg" type="image/webp"
+                    srcset="
+                    ./Images/masterplan.jpg
+                      " sizes="222px" /> -->
+                  <img data-sizes="auto" class=" lazyautosizes ls-is-cached lazyloaded ls-inview plan"
+                    data-srcset="./Images/masterplan.jpg"
+                    srcset="./Images/masterplan.jpg"  sizes="222px" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+                </picture>
+                <div class="overlays"></div>
+              </div>
+                <button type="button" class="btn btn-primary  hoverr" style="margin-left: 0px !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Master Plan
+                </button>
+              <!-- <div class="at-property-dis effetGradient">
+                <h5>Complete Costing Details</h5>
+              </div> -->
+            </div>
+          </a>
+        </div>
+        </div>
+ 
+
+ 
+
+<div class="d-block image">
+
+
+    <div class="col-md-12 floorplan">
+      
+        <div class="at-property-item  ">
+          <div class="at-property-img lazyloaded" data-expand="1">
+            <picture>
+              <!-- <source class="w-100 lazyloading" data-srcset="./Images/floorplan11.jpg" type="image/webp"
+                srcset="
+                ./Images/floorplan11.jpg
+                  " sizes="222px" /> -->
+              <img data-sizes="auto" class=" floor lazyautosizes ls-is-cached lazyloaded ls-inview floor"
+                data-srcsetImages="./Images/floorplan11.jpg" sizes="222px"
+                srcset="./Images/floorplan11.jpg" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+            </picture>
+            <div class="overlays"></div>
+          </div>
+            <button type="button" class="btn btn-primary  hoverr-1" style="margin-left: 0px !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              3 BHK
+            </button>
+          <!-- <div class="at-property-dis effetGradient">
+            <h5>Complete Costing Details</h5>
+          </div> -->
+        </div>
+      </a>
+    </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+  <!--------------------------------- Amenities----------------------------->
+
+  <section id="amenities">
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+         amenities</h1>
+      <h1 class="position-absolute text-uppercase ">amenities</h1>
+    </div>
+    <div class="center" >
+      <!-- <div><h1 class="rotate1" >Floor</h1></div> -->
+      <div class="flex-1">
+<div class="item box">
+  <div>
+ <span> <img src="./Images/basketball.png" alt=""> Basketball Court</span>
+</div>
+<div>
+  <span> <img src="./Images/tennis.png" alt="" class="ten">Tennis Court</span>
+</div>
+<div>
+  <span> <img src="./Images/billiard.png" alt="" class="bill"> Billiards Table </span>
+</div>
+</div>
+<div class="item-1 box">
+  <div>
+    <span><img src="./Images/swimming-pool.png" alt="" class="swim"> Swimming Pools</span>
+</div>
+<div style="margin-top: 1px;">
+  <span><img src="./Images/gm.svg" alt="" class="gym"> Gymnasium</span>
+</div>
+<div style="margin-top: 1px;">
+  <span> <img src="./Images/running-man.png" alt="" class="track">Jogging Track</span>
+</div>
+</div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ----------- Gallery ------------- -->
+
+  <Sectionc id="">
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+         Gallery</h1>
+      <h1 class="position-absolute text-uppercase ">Gallery</h1>
+    </div>
+      <div class="box-container">
+        <div class="box">
+            <img src="./Images/g1.jpg" alt="">
+           
+            
+        </div>
+
+        <div class="box">
+          <img src="./Images/g2.jpg" alt="">
+         
+          
+      </div>
+      <div class="box">
+        <img src="./Images/g3.jpg" alt="">
+       
+        
+    </div>
+    <div class="box">
+      <img src="./Images/g4.jpg" alt="">
+     
+      
+  </div>
+  <div class="box">
+    <img src="./Images/g5.jpg" alt="">
+   
+    
+</div>
+<div class="box">
+  <img src="./Images/g6.jpg" alt="">
+ 
+  
+</div>
+<div class="box">
+  <img src="./Images/g7.jpg" alt="">
+ 
+  
+</div>
+<div class="box">
+  <img src="./Images/g8.jpg" alt="">
+ 
+  
+</div>
+
+    </div>
+  </Sectionc>
+
+
+  <!-- ----------------- Map View-------------------------- -->
+
+
+<section id="location">
+  <div class="position-relative d-flex align-items-center justify-content-center">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+       location</h1>
+    <h1 class="position-absolute text-uppercase ">location</h1>
+    </div>
+<div class="div">
+  
+  <div id="map-container-google-1" class="z-depth-1-half map-container col-md-6" style="height: 500px">
+    <h3>Map View</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7610.002155089382!2d78.362083!3d17.507462!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x78d3c55adc5c9d69!2sCandeur%20Twins!5e0!3m2!1sen!2sin!4v1672308963719!5m2!1sen!2sin" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+</div>
+
+<div class="d-block mapping">
+
+
+  <div class="map">
+    <h3>Location Map</h3>
+      <div class="at-property-item shadow-sm border border-grey">
+        <div class="at-property-img lazyloaded" data-expand="1">
+          <picture>
+            <!-- <source class="w-100 lazyloading" data-srcset="./Images/floorplan11.jpg" type="image/webp"
+              srcset="
+              ./Images/floorplan11.jpg
+                " sizes="222px" /> -->
+            <img data-sizes="auto" class=" floor lazyautosizes ls-is-cached lazyloaded ls-inview "
+              data-srcsetImages="./Images/location.jpg" sizes="222px"
+              srcset="./Images/location.jpg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"/>
+          </picture>
+          <div class="overlays"></div>
+        </div>
+          <!-- <button type="button" class="btn btn-primary  " style="margin-left: 0px !important;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Complete Costing Details
+          </button> -->
+        <!-- <div class="at-property-dis effetGradient">
+          <h5>Complete Costing Details</h5>
+        </div> -->
+      </div>
+    </a>
+  </div>
+  </div>
+</div>
+
+</section>
+
+<!-- ----------- Virtual Tour---------------- -->
+
+
+<section class="virtualtour" id="tour">
+  <div class="position-relative d-flex align-items-center justify-content-center">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">
+       Virtual tour</h1>
+    <h1 class="position-absolute text-uppercase " >Virtual tour</h1>
+    </div>
+  <div class="box">
+    <img src="./Images/slider1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+  </div>
+  <h4 class="window">Candeurtwins, North Hyderabad</h4>
+<div class="banne" data-bs-toggle="modal" data-bs-target="#exampleModal"></div>
+  <div class="text" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   <h1 data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fa-solid fa-circle-play tour"></i></h1>
+    <h2 class="animate" data-bs-toggle="modal" data-bs-target="#exampleModal"> VIRTUAL TOUR</h2>
+    <h4 class="animate" data-bs-toggle="modal" data-bs-target="#exampleModal">Candeurtwins, At Miyapur, North hyderabad</h4>
+  </div>
+</section>
+<br>
+<!-- ----------- about--------------- -->
+
+<section class="about">
+  <div class="logo">
+<img src="./Images/logo.png" alt="">
+</div>
+<h4>About Candeur Developers</h4>
+<p>At Candeur we are dedicated towards creation. Every day we go through a 
+  plethora of ideas, choosing carefully the one best suited. 
+  Ensuring customer delight at every touch-point. 
+  Let`s take you through what we are all about - out evolution,
+   out team, our inspiration. Our vision is to provide 
+   a happy home to every Indian and create healthy workplace.
+    We go beyond creating real estate and change lives, with meticulous
+     planning and quality craftsmanship. We always strive to be the in the
+      recall level of every customer. We full fill and offer tomorrows needs 
+      today. We surpass expectations and provide luxury homes,
+   social infrastructures and in other developments nationwide.</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModallLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header w-100 px- py-2 text-white" style="background: #465e5d;">
+        <h3 class="modal-title  " style="text-align: center !important;" id="exampleModallLabel">Send Me Details</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <form action="https://formspree.io/f/xlekrqvv" method="POST" class="contact_form" >
+
+       
+       
+          <div class="text-center">
+          <img src="./Images/logo.png" alt="" srcset="" style="width: 30% !important;" >
+          <p>Register Here And Avail The <span style="color: red;"> Best Offers!!</span> </p>
+          <div class="input-control">
+            <!-- <label for="username">Name</label> -->
+            <input id="name" name="name" type="text" placeholder="Name" class="name" required>
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <!-- <label for="email">Email</label> -->
+            <input id="email" name="email" type="text" placeholder="Email" class="email" required>
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <!-- <label for="password">Contact Number</label> -->
+            <input id="number" name="number" type="tel" placeholder="Contact Number" class="number" required>
+            
+            <div class="error"></div>
+          </div>
+          <div class="input-control">
+            <!-- <label for="password2">Message</label> -->
+            <input id="message" name="message" type="text" placeholder="Message"  class="message" required>
+            <div class="error"></div>
+          </div>
+          <div class="button swing">
+            
+            <button type="submit" id="clear">Enquire Now</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <!---------------------------------------------- Script tags ------------------------------------------------->
+  <!-- <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+
+  <script>
+const form = document.querySelector('.contact_form');
+function sendMsg(e){
+  e.preventDefault();
+
+    
+    const name= document.querySelector('.name');
+
+    const email = document.querySelector('.email').value;
+
+    const number = document.querySelector('.number');
+    const message = document.querySelector('.message');
+    Email.send({
+    SecureToken : "63ef07ab-0030-44fd-885c-5005c44e914f",
+    To : 'cvinaykumar8@gmail.com',
+    From :email.value,
+    Subject : "Contact Form",
+    Body : number.value,
+    Body: name.value
+}).then(
+  message => alert(message)
+);
+}
+
+form.addEventListener('submit', sendMsg);
+
+  </script> -->
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
